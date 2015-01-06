@@ -36,7 +36,7 @@ from shogun.Kernel import CommWordStringKernel, WeightedCommWordStringKernel, Co
 from shogun.Kernel import CombinedKernel
 from shogun.Kernel import SLOWBUTMEMEFFICIENT
 from shogun.Kernel import AvgDiagKernelNormalizer
-from shogun.Features import RealFeatures, Labels, StringCharFeatures, DNA, StringWordFeatures, StringUlongFeatures, PROTEIN
+from shogun.Features import RealFeatures, BinaryLabels, StringCharFeatures, DNA, StringWordFeatures, StringUlongFeatures, PROTEIN
 from shogun.Features import CombinedFeatures
 from shogun.Classifier import LibSVM,GPBTSVM
 
