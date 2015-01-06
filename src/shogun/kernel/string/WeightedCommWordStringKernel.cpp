@@ -50,6 +50,7 @@ bool CWeightedCommWordStringKernel::init(CFeatures* l, CFeatures* r)
 	ASSERT(((CStringFeatures<uint16_t>*) l)->get_order() ==
 			((CStringFeatures<uint16_t>*) r)->get_order());
 	degree=((CStringFeatures<uint16_t>*) l)->get_order();
+	weights=NULL;
 	set_wd_weights();
 
 	CCommWordStringKernel::init(l,r);
